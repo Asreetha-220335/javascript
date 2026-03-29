@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student result portal</title>
+        <link rel="stylesheet" href="formstyle.css">
+    </head>
+    <body>
+            <div class="navbar">
+                <a href="index.html">Back to Home</a>
+                <a href="file.html">Upload File</a>
+            </div>
+        <h1>Contact Form</h1> 
+        <div class="form-container1">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="contactname" placeholder="Enter your name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="contactemail" placeholder="Enter your email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="contactmessage" placeholder="Enter your message" rows="5" cols="36"></textarea><br>
+            <label for="number">Number:</label>
+            <input type="tel" id="number" name="contactnumber"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+        </div><br><br>
+        <h2>Complaint Form</h2>
+        <div class="form-container2">
+            
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="complaintname" placeholder="Enter your name"><br>
+                <label for="roll">Roll Number:</label>
+                <input type="text" id="roll" name="complaintroll" placeholder="Enter your roll number"><br>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="complaintsubject" placeholder="Enter the subject"><br><br>
+                <label for="issue">Issue:</label>
+                <textarea id="issue" name="complaintissue" placeholder="Describe your issue" rows="5" cols="36"></textarea><br><br>
+                <label for="file">Attach File</label>
+                <input type="file" id="file" name="complaintfile" placeholder="Upload file"><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div><br><br>
+        <h3>Application form</h3>
+        <div class="form-container">
+            
+            <form>
+                <label for="name">Student Name:</label>
+                <input type="text" id="name" name="suname" placeholder="Enter your name"><br>
+                <label for="Hallno">Roll No:</label>
+                <input type="text" id="Hallno" name="srollno" placeholder="Enter your roll number"><br><br>
+                <label for="Branch">Branch:</label>
+                <select id="Branch" name="sbranch">
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="MECH">MECH</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="CHEM">CHEM</option>
+                </select><br><br>
+                <label for="year">Year/Semester:</label>
+                <input type="text" id="year" name="syear" placeholder="Enter your year/semester"><br><br>
+                <label for="application">Application Type:</label>
+                <input type="text" id="application" name="sapplication" placeholder="Enter application type"><br><br>
+                <label for="scode">Subject Name:</label>
+                <input type="text" id="scode" name="ssubject" placeholder="Enter subject name"><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
